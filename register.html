@@ -45,126 +45,120 @@
   </div>
 
 </header>
-    </div>
-    <section class="bg-image d-flex align-items-center justify-content-center">
-      <div class="card shadow-lg p-4 border-0" style="width: 350px; z-index: 1">
-        <h3 class="text-center text-danger mb-2"><b>Create account</b></h3>
-        <p class="text-center text-muted mb-3">
-          Join us as a Customer, Restaurant, or Rider
-        </p>
 
-        <!-- FORM -->
-        <form>
-          <!-- Radio -->
-          <p class="mb-1"><b>Register as:</b></p>
+   
+         <section class="register-section d-flex align-items-center">
 
-          <div class="mb-3">
-            <input type="radio" name="role" /> Customer
-            <input type="radio" name="role" class="ms-2" /> Restaurant
-            <input type="radio" name="role" class="ms-2" /> Rider
+  <div class="container">
+    <div class="row justify-content-end right-align">
+
+      <!-- Register Card -->
+      <div class="col-md-5 col-lg-4">
+        <div class="card register-card p-4 shadow border-0">
+
+          <h4><b>Create Account</b></h4>
+          <p class="text-muted small">
+            Join us as a Customer, Restaurant, or Rider
+          </p>
+
+          <!-- Radio Buttons -->
+          <div class="d-flex gap-3 mb-3">
+            <label><input type="radio" name="role"> Customer</label>
+            <label><input type="radio" name="role"> Restaurant</label>
+            <label><input type="radio" name="role"> Rider</label>
           </div>
 
-          <!-- Email -->
-          <div class="mb-3">
-            <label class="form-label">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              placeholder="Enter your email"
-            />
-          </div>
-
-          <!-- Password -->
-          <div class="mb-3">
-            <label class="form-label">Password</label>
-            <input
-              type="password"
-              class="form-control"
-              placeholder="Enter your password"
-            />
-          </div>
+          <!-- Inputs -->
+          <input type="text" class="form-control mb-2" placeholder="Enter your full name">
+          <input type="email" class="form-control mb-2" placeholder="Enter your email">
+          <input type="text" class="form-control mb-2" placeholder="Enter your phone number">
+          <input type="password" class="form-control mb-2" placeholder="Enter your password">
+          <input type="password" class="form-control mb-3" placeholder="Confirm your password">
 
           <!-- Checkbox -->
-          <div class="d-flex justify-content-between mb-3 small">
-            <div><input id="checkbox" type="checkbox" /> Remember me</div>
-            <a class="text-decoration-none " href="#">Forgot Password?</a>
+          <div class="mb-3">
+            <input type="checkbox"> I agree to the terms and conditions
           </div>
 
           <!-- Button -->
-          <button class="btn btn-danger w-100">Register</button>
-        </form>
+          <button class="btn login-btn w-100">Register</button>
 
-        <hr />
+          <p class="mt-2 small text-center">
+            Already registered? <a href="#">Login here</a>
+          </p>
 
-        <p class="text-center small">
-          Already have an account?
-          <a href="#">Login</a>
-        </p>
-      </div>
-    </section>
-    <footer class="bg-dark text-light pt-5 pb-3">
-      <div class="container">
-        <p class="text-center mb-4">
-          --- Your favorite food delivery platform connecting customers with
-          restaurants and riders ---
-        </p>
-
-        <div class="row">
-          <!-- Logo -->
-          <div class="col-md-3 mb-4">
-            <img src="footer.png" width="80" />
-          </div>
-
-          <!-- Links -->
-          <div class="col-md-3 mb-4">
-            <h6>Quick Links</h6>
-            <p><a href="#" class="text-light text-decoration-none">Home</a></p>
-            <p><a href="#" class="text-light text-decoration-none">About</a></p>
-            <p>
-              <a href="#" class="text-light text-decoration-none">Order Now</a>
-            </p>
-          </div>
-
-          <div class="col-md-2 mb-4">
-            <h6>For Restaurants</h6>
-            <p>
-              <a href="#" class="text-light text-decoration-none"
-                >Partner With Us</a
-              >
-            </p>
-          </div>
-
-          <div class="col-md-2 mb-4">
-            <h6>For Riders</h6>
-            <p>
-              <a href="#" class="text-light text-decoration-none"
-                >Become a Rider</a
-              >
-            </p>
-          </div>
-
-          <div class="col-md-2 mb-4">
-            <h6>Support</h6>
-            <p>
-              <a href="#" class="text-light text-decoration-none"
-                >Help Center</a
-              >
-            </p>
-          </div>
-        </div>
-
-        <hr />
-
-        <div class="d-flex justify-content-between flex-wrap">
-          <p>© 2026 Cravings</p>
-
-          <div>
-            <a href="#" class="text-light me-3">Privacy</a>
-            <a href="#" class="text-light">Terms</a>
-          </div>
         </div>
       </div>
-    </footer>
+
+    </div>
+  </div>
+
+</section>
+
+
+    <footer class="footer">
+  <div class="container">
+
+    <div class="row">
+         <div class="text-center mb-4">
+        <p>--- Your favorite food delivery platform connecting customers with restaurants and riders. ---</p>
+      </div>
+
+      <!-- Logo -->
+      <div class="col-md-3 mb-4">
+        <img src="footer.png" alt="footer-logo" width="80">
+      </div>
+     
+
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-4">
+        <h6>Quick Links</h6>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="order-now.html">Order Now</a></p>
+      </div>
+
+      <!-- Restaurants -->
+      <div class="col-md-2 mb-4">
+        <h6>For Restaurants</h6>
+        <p><a href="#">Partner With Us</a></p>
+        <p><a href="#">Restaurant Dashboard</a></p>
+      </div>
+
+      <!-- Riders -->
+      <div class="col-md-2 mb-4">
+        <h6>For Riders</h6>
+        <p><a href="#">Become a Rider</a></p>
+        <p><a href="#">Rider Dashboard</a></p>
+      </div>
+
+      <!-- Support -->
+      <div class="col-md-2 mb-4">
+        <h6>Support</h6>
+        <p><a href="#">Submit Feedback</a></p>
+        <p><a href="#">Help Center</a></p>
+        <p><a href="#">Contact Us</a></p>
+      </div>
+
+    </div>
+
+    <!-- Divider -->
+    <hr>
+
+    <!-- Bottom Row -->
+    <div class="d-flex justify-content-between flex-wrap footer-bottom">
+      <p>© 2026 Cravings. All rights reserved.</p>
+
+      <div>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="sitemap.html">Site Map</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

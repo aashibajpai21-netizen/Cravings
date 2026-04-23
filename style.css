@@ -75,7 +75,7 @@
 #star1:hover,
 #star2:hover,
 #star3:hover {
-  transform: scale(1.01); /* slight zoom */
+  transform: scale(1.01); 
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
@@ -286,7 +286,7 @@
 /* ===================== FOOTER ===================== */
 .footer {
   background-color: var(--color-neutral);
-  color: #bbb;
+  color: #ddd;
   padding: 50px 0 20px;
 }
 
@@ -496,4 +496,89 @@
   .right-align {
     justify-content: center !important;
   }
+  
+
+  
+ 
+.sitemap-hero{
+    position: relative;
+    height: 320px;
+    background: url('restaurent.avif') center/cover no-repeat;
+}
+
+.sitemap-hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.65);
+}
+
+/* CENTER CONTENT */
+.hero-content1{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* PERFECT CENTER */
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+}
+.hero-icon i{
+    color: #c2410c;
+    font-size:50px;
+}
+.hero-content h1{
+    font-weight:700;
+    font-size:50px;
+}
+.hero-content1 span{
+  color:#c2410c;
+}
+
+.hero-content p{
+    opacity:0.85;
+    font-size:15px;
+}
+
+/* RESPONSIVE TUNING */
+@media (max-width:768px){
+    .sitemap-hero{
+        height:260px;
+    }
+
+    .hero-content h1{
+        font-size:30px;
+    }
+}
+
+@media (max-width:576px){
+    .sitemap-hero{
+        height:220px;
+    }
+
+    .hero-content h1{
+        font-size:26px;
+    }
+
+    .hero-content p{
+        font-size:13px;
+    }
+}
+}
+.partner-section1{
+  text-decoration: none;
+}
+.text{
+  color:#c2410c
+}
+.visit{
+  text-decoration: none;
+}
+.list-unstyled{
+  color:#c2410c
+}
+.section-title{
+  font-size: 12px;
+  color:#c2410c;
 }

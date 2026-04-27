@@ -601,3 +601,7 @@
 .restaurent{
   background: #f5ede5;
 }
+
+.search-wrapper {
+  max-width: 100%;
+}

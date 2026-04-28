@@ -605,3 +605,24 @@
 .search-wrapper {
   max-width: 100%;
 }
+
+.feedback-hero {
+  position: relative;
+  min-height: 90vh;
+  background: url('FeedbackPage.jpeg') ;
+}
+
+.feedback-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  
+}
+
+.feedback-hero .container {
+  position: relative;
+  z-index: 2;
+}
+.Ratings:hover{
+color:yellow
+}
